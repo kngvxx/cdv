@@ -28,3 +28,15 @@ imie =input("Podaj imie: ")
 nazwisko=input("Podaj nazwisko: ")
 wiek=input("Podaj wiek: ")
 print("Imie i nazwisko: "+imie, nazwisko+", wiek: "+wiek)
+
+firstLetter=surname[0]
+lastLetter=surname[-1]
+print("Pierwsza Litera "+firstLetter)
+print("Ostatnia Litera "+lastLetter)
+
+#konwersja
+
+x="5"
+print(type(x))
+x=int(x)
+print(type(x))
