@@ -12,3 +12,19 @@ print(text * 2)
 #pobieranie danych z klawiatury
 name=input()
 print("Twoje imię: "+name)
+surname=input("Podaj swoje nazwisko: ")
+print("Twoje nazwisko: "+surname)
+
+print("Imie: "+ name + ", nazwisko: "+ surname)
+
+surnameLength=len(surname)
+print(type(surname))
+print(type(surnameLength))
+surnameLength = str(surnameLength)
+print("Dlugosc nazwiska: " + surnameLength)
+
+#zadanie
+imie =input("Podaj imie: ")
+nazwisko=input("Podaj nazwisko: ")
+wiek=input("Podaj wiek: ")
+print("Imie i nazwisko: "+imie, nazwisko+", wiek: "+wiek)
